@@ -1,8 +1,8 @@
 @font-face {
     font-family: "Clear Sans";
     src: url("ClearSans-Light-webfont.eot");
-    src: url("ClearSans-Light-webfont.eot?#iefix") format("embedded-opentype"),
-         url("ClearSans-Light-webfont.svg#clear_sans_lightregular") format("svg"),
+    src: url("ClearSans-Light-webfont.eot@") format("embedded-opentype"),
+         url("ClearSans-Light-webfont.svg") format("svg"),
          url("ClearSans-Light-webfont.woff") format("woff");
     font-weight: 200;
     font-style: normal;
@@ -11,8 +11,8 @@
 @font-face {
     font-family: "Clear Sans";
     src: url("ClearSans-Regular-webfont.eot");
-    src: url("ClearSans-Regular-webfont.eot?#iefix") format("embedded-opentype"),
-         url("ClearSans-Regular-webfont.svg#clear_sansregular") format("svg"),
+    src: url("ClearSans-Regular-webfont.eot@") format("embedded-opentype"),
+         url("ClearSans-Regular-webfont.svg") format("svg"),
          url("ClearSans-Regular-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
@@ -21,8 +21,8 @@
 @font-face {
     font-family: "Clear Sans";
     src: url("ClearSans-Bold-webfont.eot");
-    src: url("ClearSans-Bold-webfont.eot?#iefix") format("embedded-opentype"),
-         url("ClearSans-Bold-webfont.svg#clear_sansbold") format("svg"),
+    src: url("ClearSans-Bold-webfont.eot@") format("embedded-opentype"),
+         url("ClearSans-Bold-webfont.svg") format("svg"),
          url("ClearSans-Bold-webfont.woff") format("woff");
     font-weight: 700;
     font-style: normal;
