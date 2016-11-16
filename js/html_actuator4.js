@@ -46,11 +46,18 @@ HTMLActuator.prototype.clearContainer = function (container) {
   }
 };
 
-var captions = ["Coffee", "Panini",
-  "想法", "代码", "<span style='display:inline-block;line-height:1.2;vertical-align:middle'>深度<br>学習</span>", "见导师",
-  "实验", "Paper", "会议", "答辩", "PhD",
-  "薄厚", "僵尸", "Reader", "叫兽"];
-var game_title = "磗士";
+var captions = ["<span style='display:inline-block;line-height:30px;vertical-align:middle;font-size:25px'>Master<br>Intern</span>", 
+  "<span style='display:inline-block;line-height:30px;vertical-align:middle;font-size:25px'>PhD<br>Intern</span>",
+  "AR",
+  "AR II", "<span style='display:inline-block;line-height:30px;vertical-align:middle;font-size:18px'>Researcher</span>", 
+  "<span style='display:inline-block;line-height:30px;vertical-align:middle;font-size:18px'>Lead<br>Researcher</span>",
+  "<span style='display:inline-block;line-height:30px;vertical-align:middle;font-size:18px'>Senior<br>Researcher</span>",
+  "<span style='display:inline-block;line-height:30px;vertical-align:middle;font-size:18px'>Principal<br>Researcher</span>",
+  "<span style='display:inline-block;line-height:30px;vertical-align:middle;font-size:18px'>Partner<br>Research<br>Manager</span>",
+  "<span style='display:inline-block;line-height:30px;vertical-align:middle;font-size:18px'>Assoc.<br>Managing<br>Director</span>",
+  "<span style='display:inline-block;line-height:30px;vertical-align:middle;font-size:18px'>Managing<br>Director</span>",
+  "CVP", "EVP", "CEO", "Trump"];
+var game_title = "MSRA 2048";
 var caption_garbage = "垃圾";
 var captions_rel = ["恋爱", "分手"];
 

@@ -41,7 +41,7 @@ function create_switch_en(){
   span_english.style.color = "white";
   span_english.style.cursor = "pointer";
   span_english.onclick = play_in_english;
-  span_english.innerText = "🇬🇧 Switch to English";
+  span_english.innerText = "Switch to English";
   var container = document.getElementsByClassName('container')[0];
   container.insertBefore(span_english, container.firstChild);
 }
@@ -74,7 +74,7 @@ function play_in_english(){
   caption_garbage = "<span style='font-size:smaller'>Garbage</span>";
   window.game.actuate();
 
-  game_title = "PhD";
+  game_title = "MSRA 2048";
   var titleElem = document.getElementById('title');
   if(titleElem.innerText != "Love") titleElem.innerText = game_title;
   document.getElementsByClassName('restart-button')[0].innerText = "Drop out";
@@ -117,10 +117,17 @@ function determine_zh_var(){
 }
 
 function use_simplified(){
-  captions = ["Coffee", "Panini",
-    "想法", "代码", "<span style='display:inline-block;line-height:30px;vertical-align:middle'>深度<br>学習</span>", "见导师",
-    "实验", "Paper", "会议", "答辩", "PhD",
-    "薄厚", "僵尸", "Reader", "叫兽"];
+  captions = ["<span style='display:inline-block;line-height:30px;vertical-align:middle;font-size:25px'>Master<br>Intern</span>", 
+  "<span style='display:inline-block;line-height:30px;vertical-align:middle;font-size:25px'>PhD<br>Intern</span>",
+  "AR",
+  "AR II", "<span style='display:inline-block;line-height:30px;vertical-align:middle;font-size:18px'>Researcher</span>", 
+  "<span style='display:inline-block;line-height:30px;vertical-align:middle;font-size:18px'>Lead<br>Researcher</span>",
+  "<span style='display:inline-block;line-height:30px;vertical-align:middle;font-size:18px'>Senior<br>Researcher</span>",
+  "<span style='display:inline-block;line-height:30px;vertical-align:middle;font-size:18px'>Principal<br>Researcher</span>",
+  "<span style='display:inline-block;line-height:30px;vertical-align:middle;font-size:18px'>Partner<br>Research<br>Manager</span>",
+  "<span style='display:inline-block;line-height:30px;vertical-align:middle;font-size:18px'>Assoc.<br>Managing<br>Director</span>",
+  "<span style='display:inline-block;line-height:30px;vertical-align:middle;font-size:18px'>Managing<br>Director</span>",
+  "CVP", "EVP", "CEO", "Trump"];
   captions_rel = ["恋爱", "分手"];
   caption_garbage = "垃圾";
   window.game.actuate();
@@ -152,7 +159,7 @@ function use_traditional(){
 
 function play_default(){
   window.removeEventListener('resize', update_captions, true);
-  game_title = "磗士";
+  game_title = "微软红军升职记";
   var titleElem = document.getElementById('title');
   if(titleElem.innerText != "Love") titleElem.innerText = game_title;
 
